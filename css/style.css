@@ -1,0 +1,151 @@
+.main_menu{
+  margin-left:35%;
+  font-family:  cursive, sans-serif;
+  color:white;
+  color:inherit;
+}
+
+.navbar{
+  background:rgba(0, 78, 251, 0.3);
+}
+
+.top_menu a{
+  color:white !important;
+}
+
+body{
+  font-family: "Times New Roman", Times, serif;
+}
+
+textarea{
+  resize:none;
+}
+
+#welcome_section{
+  background: url('../images/welcome.jpg') no-repeat;
+  color:white;
+  background-size: cover;
+  padding:15% 5% 15% 40%;
+}
+
+#about{
+  background: url('../images/about-me.jpg') no-repeat;
+  color:white;
+  background-size: cover;
+  padding:10%;
+}
+
+#about p{
+  font-size:28px !important;
+}
+
+#about .container{
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 75px;
+  padding: 5%;
+}
+
+@media (max-width: 610px){
+  #about{
+    height:auto;
+  }
+
+  #about p{
+    font-size:18px !important;
+    line-height:30px;
+  }
+}
+
+#projects{
+  background: url('../images/projects.jpg') no-repeat ;
+  background-size: cover;
+}
+
+#projects .blur {
+  height:100%;
+  margin:0 0 0 0 !important;
+  padding:0 !important;
+  background-color:rgba(0, 0, 0, 0.3);
+}
+
+#projects p{
+  font-size:28px;
+  font-style:italic;
+  color:rgb(224, 218, 246);
+}
+
+#projects #explanation{
+  padding:5%;
+}
+
+#contact{
+  background: url('../images/contact.jpg') no-repeat;
+  background-size: cover;
+  padding: 5%;
+}
+
+#contact form{
+  border-radius:8%;
+}
+
+@media (max-width: 610px){
+  #contact form{
+    height:auto;
+  }
+}
+
+#contact #social{
+  padding: 0 20%;
+  float:right;
+}
+
+#contact form .form-control{
+  border-radius:20px;
+}
+
+#contact form .btn{
+  float:right;
+  margin-right: 40%;
+}
+
+#contact form .glyphicon{
+  margin-top:0px;
+  color: rgb(250, 225, 191);
+  font-size:5vh;
+}
+
+.fa {
+  padding-left: 10px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-size: 30px;
+  width: 20px;
+  left: 10px;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin{
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github{
+  background: rgb(105, 99, 106);
+  color: white;
+}
+
+.fa:hover{
+  opacity: 0.7;
+}
+
+.jumbotron{
+  height:100vh; /*make fullscreen 100vh=100%                              */
+  margin:0px;
+}
