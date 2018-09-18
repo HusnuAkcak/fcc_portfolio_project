@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>My portfolio</title>
 
   <!-- font awesome icon library -->
@@ -46,9 +46,11 @@
   </div>
 
   <section id="welcome_section" class="jumbotron">
-    <div class="container">
-      <h1>Hi, I am Husnu AKCAK.</h1>
-      <h2>Undergraduate computer engineering student.</h2>
+    <div class="blur">
+      <div class="container">
+        <h1>Hi, I am Husnu AKCAK.</h1>
+        <h2>Undergraduate computer engineering student.</h2>
+      </div>
     </div>
   </section>
 
@@ -80,61 +82,54 @@
   </section>
 
   <section id="contact" class="jumbotron">
-    <div class="container">
-      <div class="col-xs-8">
-        <form id ="contact-form" action="/mailer/mail_gonder.php" method="post" class="form-horizontal">
-          <div class="form-group">
-            <!-- <label for="inputName3" class="col-sm-3 control-label">Name</label> -->
-            <div class="col-sm-12">
-              <input name="name" type="text" class="form-control" id="inputName3" placeholder="Name">
+    <div class="blur">
+      <div class="container">
+        <div class="col-xs-8">
+          <form id ="contact-form" action="/mailer/mail_gonder.php" method="post" class="form-horizontal">
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input name="name" type="text" class="form-control" id="inputName3" placeholder="Name">
+              </div>
             </div>
-          </div>
 
-          <div class="form-group">
-            <!-- <label for="inputEmail3" class="col-sm-3 control-label">Email</label> -->
-            <div class="col-sm-12">
-              <input name="email" type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input name="email" type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
             </div>
-          </div>
 
-          <div class="form-group">
-            <!-- <label for="inputSubject3" class="col-sm-3 control-label">Subject</label> -->
-            <div class="col-sm-12">
-              <input name="subject" type="text" class="form-control" id="inputSubject3" placeholder="Subject">
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input name="subject" type="text" class="form-control" id="inputSubject3" placeholder="Subject">
+              </div>
             </div>
-          </div>
 
-          <div class="form-group">
-            <!-- <label for="inputMessage3" class="col-sm-3 control-label">Message</label> -->
-            <div class="col-sm-12">
-              <textarea name="message" class="form-control" id="inputMessage3" rows=7 placeholder="Message..."></textarea>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <textarea name="message" class="form-control" id="inputMessage3" rows=7 placeholder="Message..."></textarea>
+              </div>
             </div>
-          </div>
 
-          <div class="form-group">
-            <!-- <div div="col-sm-4 col-sm-push-8"> -->
-              <button id="submit_button" type="submit" class="btn btn-lg btn-primary">
-                <i class="glyphicon glyphicon-send"></i>
-              </button>
-            <!-- </div> -->
-          </div>
-        </form>
-      </div>
+            <div class="form-group">
+                <button id="submit_button" type="submit" class="btn btn-lg btn-primary">
+                  <i class="glyphicon glyphicon-send"></i>
+                </button>
+            </div>
+          </form>
+        </div>
 
-      <div class="col-xs-4">
-        <div id="social">
-          <a href="https://github.com/HusnuAkcak" id="github" class="fa fa-github"></a>
-          <a href="https://www.linkedin.com/in/hüsnü-akçak-a77013135/" id="linkedin" class="fa fa-linkedin"></a>
-          <a href="https://twitter.com/Husnu_Akcak" id="twitter" class="fa fa-twitter"></a>
+        <div class="col-xs-4">
+          <div id="social">
+            <a href="https://github.com/HusnuAkcak" id="github" class="fa fa-github" target="blank"></a>
+            <a href="https://www.linkedin.com/in/hüsnü-akçak-a77013135/" id="linkedin" class="fa fa-linkedin" target="blank"></a>
+            <a href="https://twitter.com/Husnu_Akcak" id="twitter" class="fa fa-twitter" target="blank"></a>
+          </div>
         </div>
       </div>
-
     </div>
   </section>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-   <!-- Include all compiled plugins (below), or include individual files as needed -->
    <script src="js/bootstrap.min.js"></script>
    <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/script.js"></script>

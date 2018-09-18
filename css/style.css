@@ -13,6 +13,13 @@
   color:white !important;
 }
 
+.blur{
+  height:100%;
+  margin:0 0 0 0 !important;
+  padding:0 !important;
+  background-color:rgba(0, 0, 0, 0.3);
+}
+
 body{
   font-family: "Times New Roman", Times, serif;
 }
@@ -23,9 +30,12 @@ textarea{
 
 #welcome_section{
   background: url('../images/welcome.jpg') no-repeat;
-  color:white;
   background-size: cover;
-  padding:15% 5% 15% 40%;
+}
+
+#welcome_section .container{
+  color:white;
+  padding:10% 5% 10% 30%;
 }
 
 #about{
@@ -56,16 +66,20 @@ textarea{
   }
 }
 
+@media (max-height: 571px){
+  #about{
+    height:auto;
+  }
+
+  #about p{
+    font-size:18px !important;
+    line-height:30px;
+  }
+}
+
 #projects{
   background: url('../images/projects.jpg') no-repeat ;
   background-size: cover;
-}
-
-#projects .blur {
-  height:100%;
-  margin:0 0 0 0 !important;
-  padding:0 !important;
-  background-color:rgba(0, 0, 0, 0.3);
 }
 
 #projects p{
@@ -81,7 +95,10 @@ textarea{
 #contact{
   background: url('../images/contact.jpg') no-repeat;
   background-size: cover;
-  padding: 5%;
+}
+
+#contact .container{
+  padding:5% 0 0 0 !important;
 }
 
 @media (max-height: 610px){
@@ -96,10 +113,6 @@ textarea{
   }
 }
 
-#contact form{
-  border-radius:8%;
-}
-
 #contact #social{
   padding: 0 20%;
   float:right;
@@ -110,8 +123,9 @@ textarea{
 }
 
 #contact form .btn{
-  float:right;
-  margin-right: 40%;
+  margin-left:2%;
+  border-radius:20px;
+  width:300px;
 }
 
 #contact form .glyphicon{
