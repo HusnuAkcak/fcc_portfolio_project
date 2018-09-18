@@ -27,4 +27,5 @@ $(document).ready(function(){
         $('html,body').animate({scrollTop: $("#contact").offset().top}, 800, 'easeOutQuint');
       }
     );
+
 });

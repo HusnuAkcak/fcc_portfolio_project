@@ -84,14 +84,20 @@ textarea{
   padding: 5%;
 }
 
-#contact form{
-  border-radius:8%;
-}
-
-@media (max-width: 610px){
-  #contact form{
+@media (max-height: 610px){
+  #contact{
     height:auto;
   }
+}
+
+@media (max-width: 410px){
+  #contact{
+    width:auto;
+  }
+}
+
+#contact form{
+  border-radius:8%;
 }
 
 #contact #social{
