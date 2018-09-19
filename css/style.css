@@ -20,6 +20,56 @@
   background-color:rgba(0, 0, 0, 0.3);
 }
 
+.red_shadow_white_text{
+  text-shadow: 1px 1px 2px black, 0 0 1em red, 0 0 0.2em white;
+}
+
+.green_shadow_white_text{
+  text-shadow: 1px 1px 2px black, 0 0 1em green, 0 0 0.2em white;
+}
+
+.yellow_shadow_white_text{
+  text-shadow: 1px 1px 2px black, 0 0 1em yellow, 0 0 0.2em white;
+}
+
+.blue_shadow_white_text{
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em white;
+}
+
+.fa {
+  padding-left: 10px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-size: 30px;
+  width: 20px;
+  left: 10px;
+  text-decoration: none;
+  margin: 5px 2px;
+  color:white;
+}
+
+.fa-twitter{
+  background: #55ACEE;
+}
+
+.fa-linkedin{
+  background: #007bb5;
+}
+
+.fa-github{
+  background: rgb(105, 99, 106);
+}
+
+.fa:hover{
+  opacity: 0.7;
+}
+
+.jumbotron{
+  height:100vh; /*make fullscreen 100vh=100%                              */
+  margin:0px;
+}
+
 body{
   font-family: "Times New Roman", Times, serif;
 }
@@ -80,16 +130,24 @@ textarea{
 #projects{
   background: url('../images/projects.jpg') no-repeat ;
   background-size: cover;
+  color:white !important;
 }
 
-#projects p{
+#projects .project-tile{
+  border-style: dashed;
+  color:rgba(238, 210, 23, 0.44);
+}
+
+#projects text{
   font-size:28px;
   font-style:italic;
-  color:rgb(224, 218, 246);
+  color: white;
 }
 
-#projects #explanation{
-  padding:5%;
+#projects #my_portfolio{
+  margin:15% 10% 10% 10% !important;
+  padding:5% !important;
+  background-color:rgba(1, 12, 12, 0.91);
 }
 
 #contact{
@@ -123,49 +181,14 @@ textarea{
 }
 
 #contact form .btn{
-  margin-left:2%;
+  margin-right:2%;
+  float:right;
   border-radius:20px;
-  width:300px;
+  width:200px;
 }
 
 #contact form .glyphicon{
   margin-top:0px;
   color: rgb(250, 225, 191);
   font-size:5vh;
-}
-
-.fa {
-  padding-left: 10px;
-  padding-right: 35px;
-  padding-top: 10px;
-  padding-bottom:10px;
-  font-size: 30px;
-  width: 20px;
-  left: 10px;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa-twitter{
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-linkedin{
-  background: #007bb5;
-  color: white;
-}
-
-.fa-github{
-  background: rgb(105, 99, 106);
-  color: white;
-}
-
-.fa:hover{
-  opacity: 0.7;
-}
-
-.jumbotron{
-  height:100vh; /*make fullscreen 100vh=100%                              */
-  margin:0px;
 }

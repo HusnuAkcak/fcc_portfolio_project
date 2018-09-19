@@ -21,7 +21,6 @@
 
   <div class="top_menu" >
       <nav class="navbar navbar-default navbar-fixed-top">
-
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -46,12 +45,10 @@
   </div>
 
   <section id="welcome_section" class="jumbotron">
-    <div class="blur">
-      <div class="container">
+      <div class="container blue_shadow_white_text">
         <h1>Hi, I am Husnu AKCAK.</h1>
         <h2>Undergraduate computer engineering student.</h2>
       </div>
-    </div>
   </section>
 
   <section id="about" class="jumbotron">
@@ -72,13 +69,12 @@
   </section>
 
   <section id="projects" class="jumbotron">
-    <div class="blur">
-      <div class="container ">
-        <div id="explanation" class="border">
-          <p>I will add some of my projects here, later on.</p>
+      <div class="container">
+        <div id="my_portfolio" class="project-tile blur">
+          <text class="yellow_shadow_white_text">My portfolio project ( this website ).</text>
+          <a href="https://github.com/HusnuAkcak/my_portfolio" class="green_shadow_white_text fa fa-chain" target="blank"></a>
         </div>
       </div>
-    </div>
   </section>
 
   <section id="contact" class="jumbotron">
