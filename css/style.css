@@ -176,6 +176,17 @@ textarea{
   float:right;
 }
 
+#contact #contact_info{
+  float:left;
+  padding-top:10%;
+  padding-left:20%;
+}
+
+#contact #contact_info text{
+  color:white !important;
+  font-size:20px;
+}
+
 #contact form .form-control{
   border-radius:20px;
 }

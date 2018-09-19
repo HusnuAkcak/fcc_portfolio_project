@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="Personal Portfolio">
+  <meta name="keywords" content="Husnu, Husnu Akcak, Akcak, GTU, Computer Engineer, student, Freelancer">
+  <meta name="author" content="Husnu AKCAK">
 
   <title>My portfolio</title>
 
@@ -119,6 +122,16 @@
             <a href="https://github.com/HusnuAkcak" id="github" class="fa fa-github" target="blank"></a>
             <a href="https://www.linkedin.com/in/hüsnü-akçak-a77013135/" id="linkedin" class="fa fa-linkedin" target="blank"></a>
             <a href="https://twitter.com/Husnu_Akcak" id="twitter" class="fa fa-twitter" target="blank"></a>
+          </div>
+          <div id="contact_info" class="blue_shadow_white_text">
+            <i class="fa fa-mobile"></i>
+            <text>+90 539 281 65 28</text>
+            </br>
+            <i class="fa fa-envelope"></i>
+            <text>husnuakcak.info@gmail.com</text>
+            </br>
+            <i class="fa fa-map-marker"></i>
+            <text>Gebze/Kocaeli/Turkey</text>
           </div>
         </div>
       </div>
