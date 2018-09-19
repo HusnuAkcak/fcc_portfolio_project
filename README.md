@@ -4,7 +4,7 @@ This is my personal portfolio.
 
 Content:
   Welcome_section,
-  About,
+  About me,
   Projects,
   Contact
   
