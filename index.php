@@ -10,6 +10,9 @@
   <meta name="keywords" content="Husnu, Husnu Akcak, Akcak, GTU, Computer Engineer, student, Freelancer">
   <meta name="author" content="Husnu AKCAK">
 
+  <!-- google webmaster verification -->
+  <meta name="google-site-verification" content="T_mymrGKAU9tImiAnnLGMouUgcMI2X7GRmIg3v3bS0A" />
+
   <title>My portfolio</title>
 
   <!-- font awesome icon library -->
@@ -124,13 +127,13 @@
             <a href="https://twitter.com/Husnu_Akcak" id="twitter" class="fa fa-twitter" target="blank"></a>
           </div>
           <div id="contact_info" class="blue_shadow_white_text">
-            <i class="fa fa-mobile"></i>
+            <i id="mobile_icon" class="fa fa-mobile"></i>
             <text>+90 539 281 65 28</text>
             </br>
-            <i class="fa fa-envelope"></i>
+            <i id="mail_icon" class="fa fa-envelope"></i>
             <text>husnuakcak.info@gmail.com</text>
             </br>
-            <i class="fa fa-map-marker"></i>
+            <i id="marker_icon" class="fa fa-map-marker"></i>
             <text>Gebze/Kocaeli/Turkey</text>
           </div>
         </div>
